@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>Input Types: Textarea | Form Labels</title>
+        <!-- & Link to CSS -->
+        <link
+            rel="stylesheet"
+            href="style.css"
+        />
+    </head>
+    <body>
+        <h1>Textera</h1>
+        <!--
+        & Textera
+            ~ this element renders as a plain, mini-text editor on the web page
+            ~ rows -> the amount of visible rows, or text lines (defaulting at 2)
+            ~ cols -> the number of visible columns in average character widths (defaulting at 20)
+            ~ placeholder -> some default text meant to explain what kind of data should be entered
+            ~ required -> this attribute can be appli
+        -->
+        <textarea
+            id="data-entry"
+            rows="7"
+            cols="42"
+            placeholder="Enter some data here!"
+        ></textarea>
+
+        <!-- & Labels
+            ~ can be used in forms to associate pieces of text with form controls and inputs
+        -->
+        <h1>Labels</h1>
+        <form action="">
+            <label for="">Book Title:</label>
+            <input
+                type="text"
+                name=""
+                id=""
+            />
+            <br />
+            <br />
+            <input
+                type="submit"
+                value="Please submit the Form"
+            />
+            <br />
+            <br />
+
+            <!-- & Associate Label with Inputss
+                ~ the fir attribute -> must match the id of a given input element
+            -->
+            <label for="title">Book Title:</label>
+            <input
+                type="text"
+                name=""
+                id="title"
+            />
+            <br />
+            <br />
+            <label for="author">Author:</label>
+            <input
+                type="text"
+                name=""
+                id="author"
+            />
+            <br />
+            <br />
+            <input
+                type="submit"
+                value="Please submit the Form"
+            />
+            <br />
+            <br />
+
+            <!-- & Alternatively these can be implicitly defined
+                ~ this will render the exact same form
+            -->
+            <label for="">
+                Book Title:
+                <input
+                    type="text"
+                    id="title"
+                />
+            </label>
+            <label for="">
+                Author:
+                <input
+                    type="text"
+                    id="author"
+                />
+            </label>
+        </form>
+    </body>
+</html>

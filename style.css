@@ -1,0 +1,39 @@
+* {
+    background-color: #f0bec9;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line:underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 5px;
+    color:whitesmoke;
+    background-color:blueviolet;
+}
+
+#data-entry {
+    background-color: #b166ff;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#title {
+    background-color: #b166ff;
+    color: whitesmoke;
+}
+
+#author {
+    background-color: #adebb3;
+    color: black;
+}
+
+/* & Change color for placeholder for modern browsers */
+::placeholder {
+    color: whitesmoke;
+}
+
+/* & Change the color of the submit button for input submit */
+input[type="submit"] {
+    background-color: whitesmoke;
+    color: #b166ff;
+}
