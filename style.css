@@ -4,11 +4,11 @@
 
 h1 {
     text-align: center;
-    text-decoration-line:underline;
+    text-decoration-line: underline;
     text-decoration-style: wavy;
     text-underline-offset: 5px;
-    color:whitesmoke;
-    background-color:blueviolet;
+    color: whitesmoke;
+    background-color: blueviolet;
 }
 
 #data-entry {
